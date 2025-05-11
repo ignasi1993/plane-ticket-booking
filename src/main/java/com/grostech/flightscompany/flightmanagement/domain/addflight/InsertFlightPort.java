@@ -2,7 +2,7 @@ package com.grostech.flightscompany.flightmanagement.domain.addflight;
 
 import com.grostech.flightscompany.flightmanagement.domain.Flight;
 
-public interface AddFlightUseCase {
+public interface InsertFlightPort {
 
-    Flight addFlight(AddFlightCommand command);
+    Flight insert(FlightToInsert flight);
 }
